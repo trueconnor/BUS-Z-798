@@ -1,0 +1,16 @@
+id,original_title,chinese_title,back_translation,similarity,vote_count,LFT_R1,AEATT_R1,LFT_R2,AEATT_R2
+27205,Inception,盗梦空间,Dream Space Thief,0.2307692307692307,13752,4.0,1.0,4.0,1.0
+68718,Django Unchained,被解放的姜戈,The Liberated Django,0.3333333333333334,10099,1.0,0.0,1.0,0.0
+118340,Guardians of the Galaxy,银河护卫队,Galaxy Guardians,0.4615384615384616,9742,0.0,0.0,0.0,0.0
+278,The Shawshank Redemption,月黑高飞,Moon Black High Fly,0.2325581395348837,8205,4.0,0.0,4.0,-1.0
+37724,Skyfall,007：大破天幕杀机,007: The Broken Sky Assassination Machine,0.1666666666666666,7604,3.0,1.0,2.0,1.0
+272,Batman Begins,蝙蝠侠：侠影之谜,Batman: The Mystery of the Heroic Shadow,0.339622641509434,7359,2.0,0.0,2.0,0.0
+14160,Up,飞屋环游记,Flying House Travelogue,0.0,6870,3.0,1.0,3.0,1.0
+150540,Inside Out,头脑特工队,Mind Agents Team,0.3076923076923077,6560,3.0,1.0,4.0,1.0
+10195,Thor,雷神,Thunder God,0.4,6525,2.0,0.0,1.0,0.0
+16869,Inglourious Basterds,无耻混蛋,Shameless Bastard,0.4864864864864865,6430,1.0,0.0,0.0,0.0
+49521,Man of Steel,钢铁侠,Iron Man,0.3,6359,1.0,0.0,1.0,0.0
+11324,Shutter Island,诡影迷情,Mysterious Shadow Infatuation,0.3255813953488372,6336,3.0,0.0,4.0,-1.0
+10681,WALL·E,机器人总动员,Robot Mobilization,0.0,6296,4.0,0.0,3.0,-1.0
+177572,Big Hero 6,超能陆战队,Super Power Land Battle Team,0.2105263157894737,6135,3.0,0.0,2.0,0.0
+12,Finding Nemo,海底总动员,Underwater Mobilization,0.2285714285714285,6122,4.0,-1.0,3.0,-1.0
