@@ -6,24 +6,28 @@ use data.dta, clear
 **************Part 1**************
 
 *icc
-icc Construct1 Person
-icc Construct1 Time
-
-icc Construct2 Person
-icc Construct2 Time
-
-icc Construct3 Person
-icc Construct3 Time
+// mixed Construct1 || Person:, mle
+// estat icc
+// mixed Construct2 || Person:, mle
+// estat icc
+// mixed Construct3 || Person:, mle
+// estat icc
+//
+// mixed Construct1 || Time:, mle
+// estat icc
+// mixed Construct2 || Time:, mle
+// estat icc
+// mixed Construct3 || Time:, mle
+// estat icc
 
 *ira
-ira Person Construct1 group(Time)
-ira Time Construct1 group(Person)
+ira Time Construct1, group(Person)
+ira Time Construct2, group(Person)
+ira Time Construct3, group(Person)
 
-ira Person Construct2 group(Time)
-ira Time Construct2 group(Person)
-
-ira Person Construct3 group(Time)
-ira Time Construct3 group(Person)
+// ira Person Construct1, group(Time)
+// ira Person Construct2, group(Time)
+// ira Person Construct3, group(Time)
 
 *null model
 twoway connected Construct1 Time if Person!=-1, connect(L) //用if暗示id变量，就能画在一张图上
